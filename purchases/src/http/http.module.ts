@@ -5,9 +5,12 @@ import { ApolloDriver } from '@nestjs/apollo';
 import path from 'node:path';
 
 import { DatabaseModule } from '../database/database.module';
+
 import { ProductsResolver } from './graphql/resolvers/products.resolver';
-import { ProductsService } from '../services/products.service';
 import { PurchasesResolver } from './graphql/resolvers/purchases.resolver';
+import { CustomersResolver } from './graphql/resolvers/customers.resolver';
+
+import { ProductsService } from '../services/products.service';
 import { PurchasesService } from 'src/services/purchases.service';
 import { CustomersService } from 'src/services/customer.service';
 
@@ -21,12 +24,14 @@ import { CustomersService } from 'src/services/customer.service';
     }),
   ],
   providers: [
+    //Resolvers
     ProductsResolver,
-    ProductsService,
-
     PurchasesResolver,
-    PurchasesService,
+    CustomersResolver,
 
+    //Services
+    ProductsService,
+    PurchasesService,
     CustomersService,
   ],
 })
