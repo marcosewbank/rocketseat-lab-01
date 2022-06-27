@@ -13,10 +13,15 @@ export default function Home(props) {
   );
 }
 
-// export const getServerSideProps = withPageAuthRequired();
+export const getServerSideProps = withPageAuthRequired({
+  getServerSideProps: async ({req,res}) => {
+    console.log(getAccessToken(req,res));
 
-export const getServerSideProps : GetServerSideProps = async({req, res}) => {
-  const token = getAccessToken(req,res);
-  console.log(token);
-  return {props: {}}
-};
+    return { 
+      props: {
+        
+      }
+    }
+  }
+});
+

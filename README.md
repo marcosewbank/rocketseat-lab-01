@@ -29,3 +29,15 @@
 
 - [Auth] Listar cursos que tenho acesso
 - [Auth] Acessar conteúdo do curso
+
+### Most used commands:
+
+## Docker
+
+- `sudo docker md` - List of online dockers.
+- `sudo docker-compose up -d` - Run development docker.
+- `sudo docker down` - Turn off all docker containers.
+
+
+## Prisma
+- `npx prisma studio` - Open prisma studio

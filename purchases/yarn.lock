@@ -413,6 +413,14 @@
   "resolved" "https://registry.npmjs.org/@nestjs/mapped-types/-/mapped-types-1.0.1.tgz"
   "version" "1.0.1"
 
+"@nestjs/microservices@^8.0.0", "@nestjs/microservices@^8.4.7":
+  "integrity" "sha512-JZX29tBWbbPa+Q06QcCbwKTyEsOFHAPrxgfEkRNwoaiEqqCsITT9w2n5bcz3vlUurdpy5dIgX3/almbitghbKg=="
+  "resolved" "https://registry.npmjs.org/@nestjs/microservices/-/microservices-8.4.7.tgz"
+  "version" "8.4.7"
+  dependencies:
+    "iterare" "1.2.1"
+    "tslib" "2.4.0"
+
 "@nestjs/platform-express@^8.0.0":
   "integrity" "sha512-lPE5Ltg2NbQGRQIwXWY+4cNrXhJdycbxFDQ8mNxSIuv+LbrJBIdEB/NONk+LLn9N/8d2+I2LsIETGQrPvsejBg=="
   "resolved" "https://registry.npmjs.org/@nestjs/platform-express/-/platform-express-8.4.7.tgz"
@@ -2453,6 +2461,11 @@
   dependencies:
     "jwa" "^1.4.1"
     "safe-buffer" "^5.0.1"
+
+"kafkajs@*", "kafkajs@^2.0.2":
+  "integrity" "sha512-g6CM3fAenofOjR1bfOAqeZUEaSGhNtBscNokybSdW1rmIKYNwBPC9xQzwulFJm36u/xcxXUiCl/L/qfslapihA=="
+  "resolved" "https://registry.npmjs.org/kafkajs/-/kafkajs-2.0.2.tgz"
+  "version" "2.0.2"
 
 "levn@^0.4.1":
   "integrity" "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ=="
