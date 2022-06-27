@@ -60,6 +60,15 @@
     "ora" "5.4.1"
     "rxjs" "6.6.7"
 
+"@apollo/federation@^0.36.1":
+  "integrity" "sha512-SAvW7ZRUEtmAdK+UWRXZxo/wRNVbDDyYbeYJooKAtvc8B4Mly+2PusqBQ+4RuHhg5dSqrv5d6RXJeY9MBiraVA=="
+  "resolved" "https://registry.npmjs.org/@apollo/federation/-/federation-0.36.1.tgz"
+  "version" "0.36.1"
+  dependencies:
+    "@apollo/subgraph" "^0.4.1"
+    "apollo-server-types" "^3.0.2"
+    "lodash.xorby" "^4.7.0"
+
 "@apollo/protobufjs@1.2.2":
   "integrity" "sha512-vF+zxhPiLtkwxONs6YanSt1EpwpGilThpneExUN5K3tCymuxNnVq2yojTvnpRjv2QfsEIt/n7ozPIIzBLwGIDQ=="
   "resolved" "https://registry.npmjs.org/@apollo/protobufjs/-/protobufjs-1.2.2.tgz"
@@ -78,6 +87,11 @@
     "@types/long" "^4.0.0"
     "@types/node" "^10.1.0"
     "long" "^4.0.0"
+
+"@apollo/subgraph@^0.1.5 || ^0.3.0 || ^0.4.0 || ^2.0.0", "@apollo/subgraph@^0.4.1":
+  "integrity" "sha512-sIGzqfUryW6tS5RPWp1awtO+5CehjPV6xbDrWS4I2Hsj8rug8Y9oiMpcnNk8GaQ1TF3UEf99ZL16mNa4J++IIQ=="
+  "resolved" "https://registry.npmjs.org/@apollo/subgraph/-/subgraph-0.4.2.tgz"
+  "version" "0.4.2"
 
 "@apollo/utils.dropunuseddefinitions@^1.1.0":
   "integrity" "sha512-jU1XjMr6ec9pPoL+BFWzEPW7VHHulVdGKMkPAMiCigpVIT11VmCbnij0bWob8uS3ODJ65tZLYKAh/55vLw2rbg=="
@@ -1104,7 +1118,7 @@
   dependencies:
     "apollo-server-types" "^3.6.1"
 
-"apollo-server-types@^3.6.1":
+"apollo-server-types@^3.0.2", "apollo-server-types@^3.6.1":
   "integrity" "sha512-XOPlBlRdwP00PrG03OffGGWuzyei+J9t1rAnvyHsSdP0JCgQWigHJfvL1N9Bhgi4UTjl9JadKOJh1znLNlqIFQ=="
   "resolved" "https://registry.npmjs.org/apollo-server-types/-/apollo-server-types-3.6.1.tgz"
   "version" "3.6.1"
@@ -2132,10 +2146,10 @@
   "resolved" "https://registry.npmjs.org/graphql-ws/-/graphql-ws-5.5.5.tgz"
   "version" "5.5.5"
 
-"graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^14.2.1 || ^15.0.0 || ^16.0.0", "graphql@^15.3.0 || ^16.0.0", "graphql@^15.7.2 || ^16.0.0", "graphql@^15.8.0 || ^16.0.0", "graphql@^16.5.0", "graphql@>=0.11 <=16", "graphql@14.x || 15.x || 16.x":
-  "integrity" "sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA=="
-  "resolved" "https://registry.npmjs.org/graphql/-/graphql-16.5.0.tgz"
-  "version" "16.5.0"
+"graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^14.2.1 || ^15.0.0 || ^16.0.0", "graphql@^15.3.0 || ^16.0.0", "graphql@^15.7.2 || ^16.0.0", "graphql@^15.8.0", "graphql@^15.8.0 || ^16.0.0", "graphql@>=0.11 <=16", "graphql@14.x || 15.x || 16.x":
+  "integrity" "sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw=="
+  "resolved" "https://registry.npmjs.org/graphql/-/graphql-15.8.0.tgz"
+  "version" "15.8.0"
 
 "has-flag@^3.0.0":
   "integrity" "sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw=="
@@ -2543,6 +2557,11 @@
 "lodash.sortby@^4.7.0":
   "integrity" "sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA=="
   "resolved" "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz"
+  "version" "4.7.0"
+
+"lodash.xorby@^4.7.0":
+  "integrity" "sha512-gYiD6nvuQy0AEkMoUju+t4f4Rn18fjsLB/7x7YZFqtFT9kmegRLrj/uGEQVyVDy7otTmSrIMXNOk2wwuLcfHCQ=="
+  "resolved" "https://registry.npmjs.org/lodash.xorby/-/lodash.xorby-4.7.0.tgz"
   "version" "4.7.0"
 
 "lodash@^4.17.19", "lodash@^4.17.21", "lodash@4.17.21":
